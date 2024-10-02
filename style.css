@@ -27,7 +27,6 @@ ul li {
 }
 
 img {
-    vertical-align: top;
     display: block;
 }
 
@@ -402,9 +401,6 @@ body.lock {
 }
 
 /*Design*/
-.design {}
-
-.design__container {}
 
 .design__wrapper {
     display: flex;
@@ -432,8 +428,6 @@ body.lock {
     background-color: #F5F7FA;
 }
 
-.tesla__container {}
-
 .tesla__wrapper {
     padding-block: 32px;
     display: flex;
@@ -453,8 +447,6 @@ body.lock {
 .tesla__feedback__wrapper {
     flex: 0 1 748px;
 }
-
-.parag {}
 
 .feedback {
     text-align: left;
@@ -490,8 +482,6 @@ body.lock {
     flex: 1 1 auto;
 }
 
-.tesla__feedback__customers__item {}
-
 .tesla__feedback__customers__link {
     font-size: 20px;
     line-height: 140%;
@@ -517,15 +507,10 @@ svg {
 
 
 /*Caring*/
-.caring {}
-
-.caring__container {}
 
 .caring__wrapper {
     padding: 48px 0 100px;
 }
-
-.text {}
 
 .caring__wrapper .parag {
     max-width: 628px;
@@ -540,8 +525,6 @@ svg {
 .caring__item {
     flex: 0 1 368px;
 }
-
-.caring__img {}
 
 .caring__img img {
     width: 100%;
@@ -626,14 +609,10 @@ svg {
     flex-wrap: wrap;
 }
 
-.footer__left__wrapper {}
-
 .footer__logo,
 .footer__copyright {
     padding-bottom: 40px;
 }
-
-.footer__copyright {}
 
 .footer__social__list {
     display: flex;
@@ -670,18 +649,12 @@ svg {
     gap: 12px;
 }
 
-.company__item {}
-
 .support__list li:first-child,
 .company__list li:first-child {
     font-size: 20px;
     padding-bottom: 12px;
     font-weight: 600;
 }
-
-.support__item {}
-
-.date__wrapper {}
 
 .date__header {
     padding-bottom: 24px;
