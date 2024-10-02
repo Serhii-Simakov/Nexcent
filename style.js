@@ -9,7 +9,7 @@ burger.addEventListener('click', () => {
 
 
 // Получаем все элементы "button"
-let elements = document.querySelector(".button");
+let elements = document.querySelectorAll(".button");
 
 // Добавляем обработчик события "click" к каждому элементу
 for (let i = 0; i < elements.length; i++) {
