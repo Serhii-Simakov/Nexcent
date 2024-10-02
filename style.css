@@ -238,9 +238,6 @@ body.lock {
 }
 
 /*Clients*/
-.clients {}
-
-.clients__container {}
 
 .client__wrapper {
     padding: 40px 0 92px;
@@ -297,6 +294,7 @@ body.lock {
 
 .clients__organization__item img {
     padding-bottom: 16px;
+    margin: 0 auto;
 }
 
 .text--organization {
@@ -347,8 +345,6 @@ body.lock {
     background-color: #F5F7FA;
     padding-block: 64px;
 }
-
-.reinvent__container {}
 
 .reinvent__wrapper {
     display: flex;
